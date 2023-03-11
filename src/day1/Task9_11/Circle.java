@@ -29,7 +29,7 @@ public class Circle implements Movable, Resizable{
 
     @Override
     public void resizable(double resizeFactor) {
-        //point.setX() = point.getX() * resizeFactor;
-        //point.getY() = point.getY() * resizeFactor;
+        point.setX(point.getX() * resizeFactor);
+        point.setY(point.getY() * resizeFactor);
     }
 }
